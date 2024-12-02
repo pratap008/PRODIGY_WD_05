@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./pit5styles.css">
+</head>
+<body>
+
+<div class="weather-container">
+    <h1>Weather App</h1>
+    <div>
+        <input type="text" id="locationInput" placeholder="Enter location">
+        <button onclick="getWeatherByLocation()">Get Weather</button>
+        <button onclick="getWeatherByGeolocation()">Use Current Location</button>
+    </div>
+    <div id="weatherInfo" class="weather-info"></div>
+</div>
+
+<script src="./pit5script.js"></script>
+
+</body>
+</html>
